@@ -5,6 +5,7 @@ import './styles.css';
 const EMAIL = 'adityaujjwal147@gmail.com';
 const LINKEDIN = 'https://www.linkedin.com/in/aditya-ujjwal/';
 const GITHUB = 'https://github.com/Aditya-Ujjwal';
+const RESUME = '/Aditya_Ujjwal_Resume.pdf';
 
 const projects = [
   {
@@ -69,7 +70,7 @@ function App() {
           <a href="#video">Pitch</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="resume-pill" href={LINKEDIN} target="_blank" rel="noopener noreferrer">Let’s connect <ArrowIcon /></a>
+        <a className="resume-pill" href={RESUME} download="Aditya_Ujjwal_Resume.pdf">Download Resume <ArrowIcon /></a>
       </header>
 
       <main id="top">
@@ -82,6 +83,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="primary-btn" href="#projects">Explore projects <ArrowIcon /></a>
+              <a className="secondary-btn" href={RESUME} download="Aditya_Ujjwal_Resume.pdf">Download Resume <ArrowIcon /></a>
               <a className="text-btn" href="#video">Watch my pitch <span>▶</span></a>
             </div>
             <div className="hero-meta">
@@ -207,6 +209,7 @@ function App() {
             <p className="contact-copy">I’m open to entry-level Data Analyst opportunities, project collaborations, and conversations around analytics, AI, and data-driven problem solving.</p>
 
             <div className="contact-actions">
+              <a className="contact-resume-btn" href={RESUME} download="Aditya_Ujjwal_Resume.pdf">Download Resume <ArrowIcon /></a>
               <a className="email-link" href={gmailCompose} target="_blank" rel="noopener noreferrer">
                 {EMAIL} <ArrowIcon />
               </a>

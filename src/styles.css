@@ -175,3 +175,7 @@ code { color: #b8f4ff; }
   .contact-section { margin-top: 110px; padding-top: 80px; }
   .footer { flex-direction: column; gap: 6px; }
 }
+.secondary-btn { display: inline-flex; gap: 9px; align-items: center; color: #d7e2ef; border: 1px solid var(--line); background: rgba(255,255,255,.03); padding: 12px 16px; border-radius: 999px; font-size: .9rem; font-weight: 650; }
+.secondary-btn:hover { border-color: rgba(94,231,255,.45); color: #ffffff; transform: translateY(-1px); }
+.contact-resume-btn { display: inline-flex; gap: 9px; align-items: center; color: #07111c; background: #e8f7ff; padding: 11px 15px; border-radius: 999px; font-size: .82rem; font-weight: 750; margin-bottom: 6px; }
+.contact-resume-btn:hover { transform: translateY(-1px); background: #ffffff; }
